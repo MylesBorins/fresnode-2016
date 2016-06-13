@@ -1,0 +1,417 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Node.js versions, how do they work?
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  style.
+    .hello {
+      background-image: url('images/hello-tharr.gif')
+    }
+    .versions {
+      background-image: url('images/versions.gif')
+    }
+    .magnet {
+      background-image: url('images/magnet.gif')
+    }
+    .stick {
+      background-image: url('images/stick.gif')
+    }
+    
+    .magnet-too {
+      background-image: url('images/magnet-too.gif')
+    }
+    
+    .confused {
+      background-image: url('images/confused.gif')
+    }
+    
+    .news {
+      background-image: url('images/news.gif')
+    }
+    
+    .complicated {
+      background-image: url('images/complicated.gif')
+    }
+    
+    .you-can-do-it {
+      background-image: url('images/you-can-do-it.gif')
+    }
+    
+    .fork {
+      background-image: url('images/fork.jpg')
+    }
+    
+    .patch {
+      background-image: url('images/patch.jpg')
+    }
+    
+    .minor {
+      background-image: url('images/minor.jpg')
+    }
+    
+    .major {
+      background-image: url('images/major.jpg')
+    }
+
+    .breaking {
+      background-image: url('images/breaking.gif')
+    }
+    
+    .stable {
+      background-image: url('images/stable.jpg')
+    }
+    
+    .io {
+      background-image: url('images/io.jpg')
+    }
+    
+    .io {
+      background-image: url('images/io.jpg')
+    }
+    
+    .infinity {
+      background-image: url('images/infinity.png')
+    }
+    
+    .behavior {
+      background-image: url('images/behavior.jpg')
+    }
+    
+    .magic {
+      background-image: url('images/magic.gif')
+    }
+
+    .tree {
+      background-image: url('images/tree.gif')
+    }
+    
+    .ci {
+      background-image: url('images/ci.jpg')
+    }
+    
+    .smoke {
+      background-image: url('images/smoke.jpg')
+    }
+    
+    .demo {
+      background-image: url('images/hammer-time.gif')
+    }
+    
+    .time {
+      background-image: url('images/time.gif')
+    }
+    
+    .current {
+      background-image: url('images/tsunami.gif')
+    }
+    
+    .turtles {
+      background-image: url('images/turtles.gif')
+    }
+    
+    .small {
+      background-image: url('images/small.jpg')
+    }
+    
+    .combined {
+      background-image: url('images/combined.gif')
+    }
+    
+    .physical {
+      background-image: url('images/physical.gif')
+    }
+    
+    .lazy {
+      background-image: url('images/lazy.gif')
+    }
+
+  body
+
+    article
+
+      section
+        h2 Node.js versions:
+        h3 How do they work?
+        h4 With your host Myles Borins
+        h4
+          a(href='https://twitter.com/thealphanerd') @thealphanerd
+        p  FresnoNodeJS June 2016
+        
+      section(data-bespoke-backdrop='hello')
+        h1 Howdy!
+        
+      section
+        h1 My Name is Myles
+        img.headroom(src='images/me.jpg' alt='itsa me!' width='200px' height='200px')
+      
+      section
+        h3 I currently work at a small disruptive startup called IBM
+        h4 contributing to Node.js
+        
+        img.headroom(src='images/ibm.jpg' alt='Eye Bee M by Paul Rand')
+        
+        h5 The opinions expressed in this talk are solely my own
+      
+      section(data-bespoke-backdrop='versions')
+        h1 Versions, how do they work?
+      
+      section(data-bespoke-backdrop='magnet')
+        h1 Versions, are a lot like magnets
+      
+      section(data-bespoke-backdrop='stick')
+        h2 Stick with me on this
+      
+      section(data-bespoke-backdrop='magnet-too')
+        h1 Versions, are a lot like magnets...
+      
+      section(data-bespoke-backdrop='confused')
+        h1 Many people are pretty darn confused about how they work
+
+      section(data-bespoke-backdrop='complicated')
+        h1 #REALTALK
+        h2 this stuff is complicated
+      
+      section(data-bespoke-backdrop='turtles')
+        h2 you do not need to understand everything
+        h3 to contribute in a meaningful way
+
+      section(data-bespoke-backdrop='small')
+        h2 starting from a small piece
+        h3 let's see how it becomes something bigger
+
+      section
+        h2 What is semver?
+        img.headroom(src='images/semver.png' alt='A major minor patch' color=white)
+        p.headroom check out http://semver.org/
+
+      section(data-bespoke-backdrop='patch')
+        h1 What is a Patch
+        
+      section(data-bespoke-backdrop='minor')
+        h1 What is a Minor
+      
+      section(data-bespoke-backdrop='major')
+        h1 What is a Major?
+
+      section
+        h2 Current:
+        h3 v6.2.0
+        h2 Active LTS:
+        h3 v4.4.5
+        h2 Maintenance LTS:
+        h3 v0.10.45 & v0.12.14
+
+      section(data-bespoke-backdrop='fork')
+        h1 Some History of
+        h2 where the heck v1 - v3 went
+        h3 and what the deal is with v0.12
+
+      section
+        h2 Node started with alternating releases
+        h3 Even was stable
+        h3 Odd was unstable
+
+      section(data-bespoke-backdrop='time')
+        h2 It was taking a long time
+        h2 for v0.12.0
+        h3 Let alone v1.0.0 
+
+      section(data-bespoke-backdrop='io')
+        h3 The project was forked in Dec of 2014
+        h3 Released as v1.0.0
+
+      section
+        h1 v0.12.0 Released
+        h2.headroom Feb 2015
+        h3 During Node Summit
+
+      section
+        h1 v1 - v3 were all part of the iojs project
+
+      section
+        h2 Node was put into a foundation 
+        h3 The projects merged as v4.0.0
+        h3 September of 2015
+
+      section
+        img(src='images/schedule.png' alt='Node.js LTS schedule')
+
+      section(data-bespoke-backdrop='current')
+        h1 What is Current?
+
+      section(data-bespoke-backdrop='physical')
+        h1 What is Active LTS?
+      
+      section(data-bespoke-backdrop='lazy')
+        h1 What is Maintenance LTS?
+      
+      section
+        h1 What about Master?
+        
+      section(data-bespoke-backdrop='stable')
+        h1 What happened to Stable?
+
+      section
+        h1 So how the heck do we manage all of this?
+
+      section(data-bespoke-backdrop='magic')
+        h1 Magic
+      
+      section(data-bespoke-backdrop='tree')
+        h1 Git Magic
+
+      section
+        h2 We maintain release branches
+        h3 v0.10.x v0.12.x v4.x v5.x and v6.x
+
+      section
+        h1 When we are ready for a current release
+        h3 We branch off of v6.x
+        h3 And cherry pick commits from Master
+
+      section
+        h2 We maintain staging branches for LTS
+        h3 v4.x-staging
+        h4 Used to stage changes as they are audited
+      
+      section
+        h2 All Changes must live in a release for at least a week
+        h3 Before they are backported to lts-staging
+      
+      section(data-bespoke-backdrop='demo')
+        h1 Stop! Demo Time.
+      
+      section
+        h1 When we are ready for an LTS release
+        h3 We branch off of v4.x
+        h3 And cherry pick commits from v4.x-staging
+
+      section
+        h1 How do we know which commits to cherry-pick?
+
+      section
+        h1 Github Labels
+
+        ul
+          li.hide
+          li Semver Major
+          li Semver Minor
+          li lts-watch
+          li dont-land
+
+      section
+        h1 Tools
+
+      section
+        h2 Release tools
+        ul
+          li.hide
+          li branch-diff
+          li changelog-maker
+          li scripts
+
+      section(data-bespoke-backdrop='breaking')
+        h1 What is a breaking change?
+
+      section(data-bespoke-backdrop='behavior')
+      
+      section
+        h1 How do we avoid breaking changes?
+
+      section(data-bespoke-backdrop='ci')
+        h1 CI
+      
+      section(data-bespoke-backdrop='smoke')
+        h1 Smoke Testing
+      
+      section
+        h2 CITGM found failures the week of Feb 4
+        img.headroom(src='images/citgm.png' alt='Failures')
+      
+      section
+        h2 Jade moved orgs but didn't update their package.json
+        img.headroom(src='images/jade.png' alt='fixing jade' width='50%')
+      
+      section
+        img(src='images/change-parse.png' width='70%' height='70%')
+      
+      section
+        img(src='images/diff.png' width='70%' height='70%')
+      
+      section
+        img(src='images/infinity.png' width='70%' height='70%')
+      
+      section
+        h2 Before Change
+        pre
+          code.language-javascript.
+            > var parse = require('querystring').parse;
+            > parse('%p=123', undefined, undefined,
+            >  {maxKeys: Infinity}).length;
+            < 1
+      section
+        h2 After Change
+        pre
+          code.language-javascript.
+            > var parse = require('querystring').parse;
+            > parse('%p=123', undefined, undefined,
+            >   {maxKeys: Infinity}).length;
+            < 0
+
+      section
+        h1 Smoke Testing Saved the Day!
+      
+      section
+        h3 While the change was on master
+        h3 It had not yet made its way to a release yet
+        h3 As such we were able to land a fix
+        h3 before it hit user land!
+
+      section
+        h1 CITGM has found all sorts of weirdness
+        h3.headroom Ask me after and I'll tell you where to find my journal
+
+      section
+        h1 So Which Version Should You Use?
+      
+      section
+        h1 v4.x (imho)
+
+      section
+        h2 Why?
+        ul
+          li.hide
+          li Longest support cycle
+          li closest to master of LTS releases
+          li least likely to break your app in production
+      
+      section
+        h1 Do I have to?
+        
+      section
+        h1 Nope!
+
+      section
+        h2 v6 comes packed with v8 5
+        h3 And with that lots of es6 goodies
+      
+      section
+        h2 After six months as current
+        h3 It will have 30 months in LTS
+        h4 Starting October 2016
+      
+      section
+        h2 Be prepared for breakages
+        h3 If you are an early adopter
+      
+      section
+        h2 Thank You
+        img.headroom(src='images/best-gif-evar.gif' alt='a surfing puppy' width='20%')
+        h3 Myles Borins
+        h4 @thealphanerd
+
+    script(src='build/build.js')
